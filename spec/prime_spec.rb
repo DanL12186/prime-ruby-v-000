@@ -12,6 +12,7 @@ describe "prime?" do
     expect(prime?(-1)).to be(false), "Be sure to account for negative numbers!"
     expect(prime?(0)).to be(false)
     expect(prime?(1)).to be(false)
+    expect(prime?(2)).to be(true)    
     expect(prime?(4)).to be(false)
     expect(prime?(40)).to be(false)
     expect(prime?(1763)).to be(false)
